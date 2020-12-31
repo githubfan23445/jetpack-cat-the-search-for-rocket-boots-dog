@@ -2,7 +2,21 @@
     "name": "Jetpack cat: the search for Rocket boots dog",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.8",
+        "controller": "*",
+        "keyboard": "*",
+        "radio": "*",
+        "mouse": "*",
+        "storyboard": "*",
+        "sevenseg": "*",
+        "corgio": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "color-coded-tilemap": "*"
     },
     "files": [
         "main.blocks",
@@ -18,7 +32,7 @@
         "branch": "v1.2.10",
         "tag": "v1.2.10",
         "commits": "https://github.com/microsoft/pxt-arcade/commits/96279205a73799cd057b50beda9ca58593067e18",
-        "target": "1.2.10",
+        "target": "1.2.16",
         "pxt": "6.2.23",
         "targetId": "arcade"
     },
